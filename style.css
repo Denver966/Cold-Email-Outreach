@@ -12,11 +12,12 @@ html {
 
 body {
   max-width: 1200px;
-  width: 90%;
+  width: 100%;
   min-height: 100vh;
   background: url(backgrund.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
+  overflow-x: hidden;
 }
 
 body .nav {
