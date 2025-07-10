@@ -109,7 +109,7 @@ body .nav {
 
 .services {
   max-width: 1200px;
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background-color: white;
   position: relative;
@@ -117,7 +117,7 @@ body .nav {
 }
 .Why-us {
   max-width: 1200px;
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background-color: white;
   position: relative;
@@ -126,7 +126,7 @@ body .nav {
 
 .contact {
   max-width: 1200px;
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background-color: white;
   position: relative;
@@ -179,7 +179,7 @@ p {
 
 .why-us {
   max-width: 700px;
-  width: 80%;
+  width: 90%;
   position: relative;
   top: 100px;
   height: auto;
@@ -251,7 +251,7 @@ footer {
   position: relative;
   top: 400px;
   max-width: 1200px;
-  width: 100%;
+  width: 90%;
   height: 50px;
   background-color: #ffffff;
   box-shadow: 0px 1px 10px 1px gray;
