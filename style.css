@@ -277,6 +277,10 @@ footer {
   padding: 10px 20px;
 }
 
+.font{
+  font-size: 20px;
+}
+
 .link a {
   text-decoration: none;
   margin-left: 10px;
