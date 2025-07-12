@@ -14,7 +14,7 @@ body {
   max-width: 1200px;
   width: 100%;
   min-height: 100vh;
-  background: url(backgrund.jpg);
+  background: url(Grow\ your\ business.png);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
 }
@@ -25,7 +25,7 @@ body .nav {
   display: flex;
   justify-content: space-between;
   padding: 10px 40px;
-  background-color: #ffffff;
+  background-color: #e5fffd;
   box-shadow: 0px 1px 10px 1px gray;
   position: sticky;
   top: 0;
@@ -114,31 +114,33 @@ body .nav {
   max-width: 1200px;
   width: 100%;
   height: 100vh;
-  background-color: white;
+  background: #d6d6e0;
   position: relative;
-  top: 330px;
+  top: 286px;
 }
 .Why-us {
   max-width: 1200px;
   width: 100%;
   height: 100vh;
-  background-color: white;
+  background: #d6d6e0;
   position: relative;
-  top: 330px;
+  top: 280px;
 }
 
 .contact {
   max-width: 1200px;
   width: 100%;
   height: 100vh;
-  background-color: white;
+  background: #d6d6e0;
   position: relative;
-  top: 330px;
+  top: 280px;
 }
 
 .services h2 {
   text-align: center;
   font-size: 30px;
+  position: relative;
+  top: 100px;
 }
 
 .mycont {
@@ -147,11 +149,11 @@ body .nav {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  top: 100px;
+  top: 150px;
+  background: #d6d6e0;
 }
-.nameandemail{
+.nameandemail {
   display: flex;
-
 }
 
 .box {
@@ -176,6 +178,8 @@ p {
   text-align: center;
   padding: 10px;
   font-size: 30px;
+  position: relative;
+  top: 80px;
 }
 
 .services ul {
@@ -190,7 +194,7 @@ p {
   max-width: 700px;
   width: 100%;
   position: relative;
-  top: 100px;
+  top: 150px;
   height: auto;
 }
 
@@ -205,6 +209,13 @@ p {
 .contact h2 {
   text-align: center;
   font-size: 30px;
+  position: relative;
+  top: 100px;
+}
+
+.row {
+  position: relative;
+  top: 50px;
 }
 
 .form #name,
@@ -256,17 +267,17 @@ p {
   display: flex;
   align-items: center;
 }
-.formm{
-    width: 90%;
+.formm {
+  width: 90%;
 }
 
 footer {
   position: relative;
-  top: 400px;
+  top: 280px;
   max-width: 1200px;
   width: 100%;
   height: auto;
-  background-color: #ffffff;
+  background-color: #e5fffd;
   box-shadow: 0px 1px 10px 1px gray;
   font-weight: 600;
 }
@@ -276,9 +287,9 @@ footer {
   padding: 10px 20px;
 }
 /* new style */
- .font{
+.font {
   font-size: 20px;
- }
+}
 /* style end */
 .link a {
   text-decoration: none;
@@ -292,7 +303,7 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .checkbox {
     display: block;
     margin-top: 15px;
@@ -303,7 +314,7 @@ footer {
     height: 100vh;
     left: -100%;
     top: 65px;
-    background-color: rgb(255, 255, 255);
+    background-color: #e5fffd;
     text-align: center;
     display: block;
     transition: all 0.5s;
@@ -315,7 +326,7 @@ footer {
   }
   .nav ul li .active,
   .nav ul li a:hover {
-    background-color: #ffffff;
+    background-color: #e5fffd;
     color: black;
   }
   .text h2 {
@@ -352,6 +363,15 @@ footer {
     left: 40px;
     top: 120px;
   }
+  .row {
+    top: 100px;
+  }
+  body{
+    background-size: auto 100vh;
+  }
+  footer{
+    top: 435px;
+  }
   .text p {
     font-size: 14px;
     max-width: 500px;
@@ -369,22 +389,39 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 0px;
+    top: 150px;
+    z-index: 1000;
   }
   .why-us {
     max-width: 1200px;
     width: 100%;
     position: relative;
-    top: 0px;
+    top: 150px;
     height: 500px;
+  }
+  .Why-us {
+    top: 601px;
+  }
+  .Why-us .h2 {
+    top: 80px;
   }
   .services {
     max-width: 1200px;
     width: 100%;
     height: auto;
-    background-color: white;
+    top: 452px;
+  }
+  .contact {
+    top: 500px;
+  }
+  .contact h2{
+    top: 80px;
+  }
+  .services h2 {
+    text-align: center;
+    font-size: 30px;
     position: relative;
-    top: 330px;
+    top: 100px;
   }
   .form #name,
   #email {
