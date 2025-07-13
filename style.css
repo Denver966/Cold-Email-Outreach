@@ -1,6 +1,7 @@
 /* General Reset */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -409,7 +410,7 @@ footer {
     max-width: 1200px;
     width: 100%;
     height: auto;
-    top: 452px;
+    top: 350px;
   }
   .contact {
     top: 500px;
