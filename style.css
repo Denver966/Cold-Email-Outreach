@@ -1,7 +1,6 @@
 /* General Reset */
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 * {
@@ -331,6 +330,17 @@ footer {
 .custom-footer a {
   color: #0077aa;
   text-decoration: none;
+}
+
+.custom-footer hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #cceeee;
+}
+
+.custom-footer .copyright {
+  font-size: 14px;
+  color: #555;
 }
 
 @media screen and (max-width: 768px) {
