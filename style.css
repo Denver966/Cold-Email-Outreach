@@ -462,6 +462,10 @@ footer {
     position: relative;
     top: 50px;
   }
+  html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
   body {
     width: 100%;
   }
