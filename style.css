@@ -364,6 +364,12 @@ footer {
     left: 40px;
     top: 120px;
   }
+  body .nav{
+    position: sticky;
+    top: 0;
+    height: auto;
+    z-index: 100000;
+  }
   .row {
     top: 100px;
   }
