@@ -12,16 +12,17 @@ html {
 }
 
 body {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 100%;
   min-height: 100vh;
   background: url(Grow\ your\ business.png);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
+  overflow-x: hidden;
 }
 
 body .nav {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -112,7 +113,7 @@ body .nav {
 }
 
 .services {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 100%;
   height: 100vh;
   background: #d6d6e0;
@@ -120,7 +121,7 @@ body .nav {
   top: 286px;
 }
 .Why-us {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 100%;
   height: 100vh;
   background: #d6d6e0;
@@ -129,7 +130,7 @@ body .nav {
 }
 
 .contact {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 100%;
   height: 100vh;
   background: #d6d6e0;
@@ -221,7 +222,7 @@ p {
 
 .form #name,
 #email {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 90%;
   height: 50px;
   margin-top: 10px;
@@ -236,7 +237,7 @@ p {
 }
 
 .form #message {
-  max-width: 1200px;
+  max-width: 1500px;
   width: 99%;
   margin: 10px;
   padding: 10px;
@@ -394,26 +395,26 @@ footer {
     z-index: 1000;
   }
   .why-us {
-    max-width: 1200px;
+    max-width: 1500px;
     width: 100%;
     position: relative;
     top: 150px;
     height: 500px;
   }
   .Why-us {
-    top: 601px;
+    top: 495px;
   }
   .Why-us .h2 {
     top: 80px;
   }
   .services {
-    max-width: 1200px;
+    max-width: 1500px;
     width: 100%;
     height: auto;
     top: 350px;
   }
   .contact {
-    top: 500px;
+    top: 490px;
   }
   .contact h2{
     top: 80px;
@@ -456,7 +457,10 @@ footer {
     position: relative;
     top: 50px;
   }
+  html{
+    overflow-x: hidden;
+  }
   body {
-    width: 100%;
+    overflow-x: hidden;
   }
 }
